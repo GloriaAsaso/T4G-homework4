@@ -1,0 +1,104 @@
+body{
+    font-family: Arial',san'sans-serif;
+    margin: 0;
+    padding: 0;
+   background-color: aqua;
+   padding: 20px;
+    text-align: center;
+ }
+
+ header h1 {
+     margin: 0;
+     color: #4caf50;
+     
+ }
+
+ nav {
+     display: flex;
+     justify-content: center;
+     background-color: #4caf50;
+     padding: 10px;
+ }
+ nav a {
+     color: white;
+     text-decoration: none;
+     margin: 0 15px;
+
+ }
+ nav a :hover {
+     text-decoration: underline;
+
+ }
+  .hero {
+     background: url('https://via.placeholder .com/1200x400') no-repeat centercover;
+     height: 400px; 
+     text-align: center;
+     color: white;
+     display: flex;
+     justify-content:center ;
+     align-items: center;
+
+  }
+  .hero h1 {
+     background-color: rgba(0,0,0,0.5);
+     padding: 20px;
+         
+  }
+  section{
+     padding: 20px;
+     text-align: center;
+  }
+  .products{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+
+  }
+  .products{
+     margin: 10px;
+     padding: 10px;
+     border-radius: 8px;width: 200px;
+  }
+  footer{
+     background-color: \333;
+     color: white;
+     text-align: center;
+     padding: 1rem 0;
+  }
+ < /style>
+ </head>
+ <header>
+ <h1> Gloria's fruits </h1>
+ <nav
+ <a href="#home">home</a>
+ <a>href="#about">about us</a>
+ <a href="#products">products</a>
+ <a href="#recipes">recipes</a>
+ <a href="#contact">contact us</a>
+ </nav>
+ </header>
+ <section class="banner">
+ <h2>freshness delivered daily</h2>
+ <p>From our or chards to your table</p>
+ <button>shop now</button>
+ </section>
+ <section class="featured-products">
+ <div>
+ <h3>Organic Apple</h3>
+ <p>Fresh and juicy.</p>
+ </div>
+ <div>
+ <h3> Sweet Mangoes</h3> 
+ </p>Perfect for smoothies.</p>
+ </div>
+ <div>
+ <h3>Seasonal Berries</h3> 
+ <p>Rich in antioxidants.</p>
+ </div>
+ </section>
+ <footer> class="footer">
+ <p>@ </p>
+ </footer>
+ </body>
+ </html>
+ 
