@@ -1,0 +1,239 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('fruits.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+}
+
+.cta-button {
+    background-color: #FF5733;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #ff4500;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 2em;
+}
+
+.about-us p {
+    font-size: 1.2em;
+}
+
+/* Health Benefits Section */
+.health-benefits {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.health-benefits h2 {
+    font-size: 2em;
+}
+
+.health-benefits ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.health-benefits ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Recipes Section */
+.recipes {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.recipes h2 {
+    font-size: 2em;
+}
+
+.recipes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipes ul li {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Sign Up Section */
+.sign-up {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sign-up form {
+    display: inline-block;
+    text-align: left;
+}
+
+.sign-up form input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+}
+
+.sign-up form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-up form button:hover {
+    background-color: #45a049;
+}
+
+/* Contact Us Section */
+.contact-us {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-us form {
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-us form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+    height: 100px;
+}
+
+.contact-us form button {
+    padding: 10px 20px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-us form button:hover {
+    background-color: #ff4500;
+}
+
+/* Log In Section */
+.log-in {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.log-in form {
+    display: inline-block;
+    text-align: left;
+}
+
+.log-in form input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+}
+
+.log-in form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.log-in form button:hover {
+    background-color: #45a049;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .footer-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
